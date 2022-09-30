@@ -30,8 +30,31 @@
 		.wrapper {
 			width: 100%;
 			table-layout: fixed;
-			background-color: #e3dec7;
+			background-color: #F5CAC3;
 			padding-bottom: 60px;
+		}
+
+		.main {
+			width: 100%;
+			max-width: 600px;
+			background-color: #F9F9F9;
+			font-family: sans-serif;
+			color: #4a4a4a;
+			box-shadow: 0 0 25px rgba(0, 0, 0, .15);
+		}
+
+		.social {
+			width: 30px;
+		}
+
+		.social-media {
+			padding: 16px 0 10px 160px;
+		}
+
+		.two-columns .column {
+			width: "100%";
+			max-width: 300px;
+			display: inline-block;
 		}
 	</style>
 </head>
@@ -43,9 +66,39 @@
 		<table class="main" width="100%">
 
 			<!-- BORDER -->
+			<tr>
+				<td height="8" style="background-color: rgb(181, 181, 181);">
 
+				</td>
+			</tr>
 			<!-- LOGO & SOCIAL MEDIA SECTION -->
+			<tr>
+				<td style="padding: 14px 0 4px;">
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
 
+								<table class="column">
+									<tr>
+										<td style="padding:0 22px 10px">
+											<a href="#"><img src="img/logo.png" alt="" title="Logo" width="250px"></a>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="social-media">
+											<a href="#"><img src="img/facebook.png" alt="" class="social"></a>
+											<a href="#"><img src="img/instagram.png" alt="" class="social"></a>
+											<a href="#"><img src="img/twitter.png" alt="" class="social"></a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 			<!-- BANNER IMAGE -->
 
 			<!-- TITLE, TEXT & BUTTON -->
